@@ -31,6 +31,10 @@ See requirements.txt
    
    docker push <aws_account_id>.dkr.ecr.<region>[.amazonaws.com/](https://.amazonaws.com/)<your_repo_name>:latest
 
+# Creating EC2 instance and running docker image
+1) In AWS search bar, search for "EC2"
+2) Select Instances -> Launch instance
+
 # Running Locally
 1) In the .env file, make sure 'DB_HOST' is set to 'localhost'
 2) Run the activate.bat file
