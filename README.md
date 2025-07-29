@@ -22,10 +22,13 @@ See requirements.txt
 2) Under "Private Repository" and click "Create repository"
 3) Open a terminal in project directory (where dockerfile, .env, manage.py, docker.yml is)
 4) build the docker image
+   
    docker compose build web
 6) tag docker image with
+   
    docker tag <image_name:tag> <aws_account_id>.dkr.ecr.<region>[.amazonaws.com/](https://.amazonaws.com/)<your_repo_name>:latest
-7) push docker image with
+8) push docker image with
+   
    docker push <aws_account_id>.dkr.ecr.<region>[.amazonaws.com/](https://.amazonaws.com/)<your_repo_name>:latest
 
 # Running Locally
