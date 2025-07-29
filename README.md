@@ -4,7 +4,7 @@ Deploying hospital project to AWS and running with Docker Containers
 # Requirements
 See requirements.txt
 
-#AWS setup
+# AWS setup
 1) Install Amazon CLI, see link https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 2) After installing, check if it works by opening a terminal and typing 'aws --version'
 3) Log onto your AWS account then type "IAM" in the search bar
